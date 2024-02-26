@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Press Start 2p';
+  }
+
+body{
+    font-size: 30pt;
+    font-family: 'Press Start 2p';
+    text-align: center;
+    background: url(./images/bg.jpg) rgb(98 103 104) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1{
+    font-size: 50px;
+    color: yellow
+}
+
+#board{
+    background-color: black;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid magenta;
+}
+
+button{
+    font-size: 44px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+
+ button:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+body {
+    background: url(mainbg.jpg) #0368ee no-repeat center fixed;
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    color: #7FDBFF; 
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.text-design {
+    display: flex;
+    font-family: "Rubik Vinyl",'Impact', sans-serif;;
+    font-size: 100px;
+    font-weight:bolder;
+    margin: 45px auto;
+    justify-content: center;
+    color: #06eef6;; /* Teal color */
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    place-items: center;
+}
+
+img{
+    border: 10px solid black;
+    height: 450px;
+    width: 500px;
+}
+
+a{
+    margin: 10px auto;
+    padding: 5px 5px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid cyan;
+    background-color: #2e2460;
+    color: cyan;
+}
+
+a:hover{
+    color: #2e2460;
+    background-color: #06eef6;
+    border: 5px solid #2e2460;
+    font-weight: bolder;
+}
+
+div h1{
+    color: #d74e8f;
+    font-size: 40px;
+    font-family: "Rubik Vinyl" ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}

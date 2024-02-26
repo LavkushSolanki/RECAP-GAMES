@@ -1,0 +1,74 @@
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
+    background: url(./images/mario-bg.jpg);
+    background-size:cover;
+    cursor: url(./images/hammer2.png), auto;
+}
+
+#board
+{
+    text-align: center;
+    background: url(./images/soil.png);
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    border: 6px solid black;
+    border-radius: 30px;
+}
+
+/* we are doing here 180*180 pixel because we here are dividing our board into 3*3 so 540/180 is 3 thats is the reason */
+#board div{
+    width: 180px;
+    height: 180px;
+    background: url(./images/pipe.png);
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+
+    /* by this images will not be dragabble and selectable */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    width: 196px;
+    border: 5px solid #0e3ae5;
+    border-radius: 47px;
+    margin: 35px auto;
+    background-color: #e5cb14;
+    color: #bb3535;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+button:hover
+{
+    background-color: #bb3535;
+    color: #e5cb14;
+}
+
+audio
+{
+    /* display: none; */
+}
